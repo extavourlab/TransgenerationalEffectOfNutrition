@@ -1,0 +1,26 @@
+variable names for tei_data_raw.csv 
+
+no_id = individual id
+gen_id	- generation (F0, F1, and F2)
+vial_id	= number id
+genvial_id	= I reused vial_id numbers, so use genvial_id if including effects of vial
+diet_group = diet treatment group, categorized by an individual's diet (R, S, or P, 
+	representing rich, standard, or poor diet, respectively) and diet of previous
+	generations (e.g., F0=R, F1=RP, F2=RPP; F0 had rich food, F1 had poor food, F2 had 
+	poor food. The rightmost letter always represents the diet of that generation, and
+	each preceding letter represents the diet of the previous generation.
+lineage	= indicates which grandparent they had (R, S, or P)
+F2_diet	= diet of F2
+F1_diet	= diet of F1
+F0_diet = diet of F0	
+sex	= sex
+mass_mg	= mass (in mg)
+dev_L1-LP = larval development period = development period (in days) from L1 to LP
+dev_LP-A = pupal development period = development period (in days) from LP to adult
+dev_L1-A = larval and pupal development period = development time (in days) from L1 to adult
+ovar_no	= ovariole number
+wing_length - wing length
+
+
+
+
