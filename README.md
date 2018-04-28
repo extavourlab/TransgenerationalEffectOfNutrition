@@ -25,3 +25,7 @@ The raw data can be downloaded here: <a href="./dataset/dataset.zip">Dataset</a>
 
 Thanks to the D3 Reusable charts project by Andrew Sielen (MIT licenced) for the swarm plots. http://bl.ocks.org/asielen/92929960988a8935d907e39e60ea8417
 Heatmap adapted from Tom May Day/Hours heatmap (MIT licence. http://bl.ocks.org/tjdecke/5558084
+
+## Funding
+
+Funding for this research project was provided by ADD FUNDING SOURCES HERE.
