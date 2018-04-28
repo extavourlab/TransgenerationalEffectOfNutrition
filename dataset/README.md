@@ -55,7 +55,7 @@ The variables are:
 - **ovar_no**: ovariole number
 - **wing_length**: length of the fly wing in mm<sup>3</sup>
 
-## StatisticalTests.zip
+## RawStatisticalTests.zip
 
 Complete results of the statistical tests performed on the raw data. They are the results of a Dunn test for multiple comparisons
 done after a Kruskal-Wallis test (Bonferroni-adjusted p-value). The suffix indicates the phenotype.
