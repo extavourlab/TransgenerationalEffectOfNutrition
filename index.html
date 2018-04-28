@@ -139,8 +139,12 @@ div.tooltip {
       <center>
         <h1>The transgenerational effect of nutrition on flies.</h1>
       <p>
-        Research by <label>Joe Deas</label>
-        Data-vizualization by <label>Leo Blondel</label>
+        Research design and data collection by <label>Joe Deas</label><sup>1</sup>;
+        Data-vizualization by <label>Leo Blondel</label><sup>1</sup>;
+        Principal Investigator <label>Cassandra G Extavour</label><sup>1</sup>
+      </p>
+      <p>
+        1: Department of Organism and Evolution, Harvard University.
       </p>
       <p>
         <i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
@@ -152,6 +156,28 @@ div.tooltip {
           exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
           vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui
           dolorem eum fugiat quo voluptas nulla pariatur?</i>
+      </p>
+      <p>
+         This is an interactive datavizualisation that allows the user to explore interactively the dataset published in the paper <bold>ADD REF TO PAPER ONCE PUBLISHED</bold>.
+         To explore the dataset
+      </p>
+      <p>
+        The raw data can be downloaded here: <a href="./rawdata.tsv">Dataset</a>. It is formated as a TSV.
+      </p>
+      <H3>Legend</H3>
+      <p>
+        <bold>P</bold>: Poor; <bold>R</bold>: Rich; <bold>S</bold>: Standard<br />
+        <bold>XY</bold>: F0 was subjected to diet X and F1 diet Y (example: PR: F0 poor and F1 rich)<br />
+        <bold>XYZ</bold>: F0 was subjected to diet X, F1 diet Y and F2 diet Z (example: SRP: F0 standard, F1 rich and F2 poor)
+      </p>
+      <p>
+            <img src="./images/egg.svg" width='70px' title="Egg Size"/> Egg Size
+            <img src="./images/mass.svg" width='70px' title="Fly mass"/> Fly mass
+            <img src="./images/wing.svg" width='70px' title="Wing Length"/> Wing Length
+            <img src="./images/ovarno.svg" width='70px' title="Number of Ovariole"/> Number of Ovariole
+            <img src="./images/L1A.svg" width='70px' title="Larvae to Adult development time"/> Larvae to Adult development time
+            <img src="./images/LPA.svg" width='70px' title="Pupae to Adult development time"/> Pupae to Adult development time
+            <img src="./images/L1LP.svg" width='70px' title="Larvae to Pupae development time"/> Larvae to Pupae development time
       </p>
     </div>
     </center>
@@ -178,7 +204,7 @@ div.tooltip {
               <div class='row vspace'>
                 <div class="form-group">
                   <label>Phenotype</label>
-                  <img src="./images/egg_g.svg" width='100px' id="imgegg" title="Egg Size" onclick="ChangePhenotype('eggsize')"/>
+                  <img src="./images/egg.svg" width='100px' id="imgegg" title="Egg Size" onclick="ChangePhenotype('eggsize')"/>
                   <img src="./images/mass_g.svg" width='100px' id="imgmass" title="Fly mass" onclick="ChangePhenotype('mass')"/>
                   <img src="./images/wing_g.svg" width='100px' id="imgwing" title="Wing Length" onclick="ChangePhenotype('winglength')"/>
                   <img src="./images/ovarno_g.svg" width='100px' id="imgovarno" title="Number of Ovariole" onclick="ChangePhenotype('ovarno')"/>
@@ -311,7 +337,7 @@ div.tooltip {
     <script src="distrochart.js" charset="utf-8"></script>
 
     <script>
-    var phenotype;
+    var phenotype = "eggsize";
     $(window).resize(function(){location.reload();});
     document.getElementById("plotType").value = 'violin';
     $(document).ready(function(e) {
