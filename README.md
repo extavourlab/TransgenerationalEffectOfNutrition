@@ -28,14 +28,20 @@ The raw data can be downloaded here: <a href="./dataset/dataset.zip">Dataset</a>
 **XYZ**: F0 was subjected to diet X, F1 diet Y and F2 diet Z (example: SRP: F0 standard, F1 rich and F2 poor)
 
 ![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
+![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
+![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
+![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
+![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
+![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
+![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
 
-    <img src="./images/egg.svg" width='70px' title="Egg Size"/> Egg Size
-    <img src="./images/mass.svg" width='70px' title="Fly mass"/> Fly mass
-    <img src="./images/wing.svg" width='70px' title="Wing Length"/> Wing Length
-    <img src="./images/ovarno.svg" width='70px' title="Number of Ovariole"/> Number of Ovariole
-    <img src="./images/L1A.svg" width='70px' title="Larvae to Adult development time"/> Larvae to Adult development time
-    <img src="./images/LPA.svg" width='70px' title="Pupae to Adult development time"/> Pupae to Adult development time
-    <img src="./images/L1LP.svg" width='70px' title="Larvae to Pupae development time"/> Larvae to Pupae development time
+<img src="./images/egg.svg" width='70px' title="Egg Size"/> Egg Size
+<img src="./images/mass.svg" width='70px' title="Fly mass"/> Fly mass
+<img src="./images/wing.svg" width='70px' title="Wing Length"/> Wing Length
+<img src="./images/ovarno.svg" width='70px' title="Number of Ovariole"/> Number of Ovariole
+<img src="./images/L1A.svg" width='70px' title="Larvae to Adult development time"/> Larvae to Adult development time
+<img src="./images/LPA.svg" width='70px' title="Pupae to Adult development time"/> Pupae to Adult development time
+<img src="./images/L1LP.svg" width='70px' title="Larvae to Pupae development time"/> Larvae to Pupae development time
 
 
 <div class="row">
