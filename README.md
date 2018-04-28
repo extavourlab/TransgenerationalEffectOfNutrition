@@ -20,39 +20,3 @@ Principal Investigator **Cassandra G Extavour**<sup>1</sup>
 ## Raw data
 
 The raw data can be downloaded here: <a href="./dataset/dataset.zip">Dataset</a>. The documentation is in the <a href="https://github.com/extavourlab/TransgenerationalEffectOfNutrition/tree/master/dataset">README.md</a> file. The source code for this dataviz is Open-Sourced under the MIT licence, and can be found here: <a href="https://github.com/extavourlab/TransgenerationalEffectOfNutrition">Github Repository</a>.
-
-## Legend
-
-**P**: Poor; **R**: Rich; **S**: Standard<br />
-**XY**: F0 was subjected to diet X and F1 diet Y (example: PR: F0 poor and F1 rich)<br />
-**XYZ**: F0 was subjected to diet X, F1 diet Y and F2 diet Z (example: SRP: F0 standard, F1 rich and F2 poor)
-
-![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
-![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
-![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
-![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
-![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
-![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
-![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
-
-<img src="./images/egg.svg" width='70px' title="Egg Size"/> Egg Size
-<img src="./images/mass.svg" width='70px' title="Fly mass"/> Fly mass
-<img src="./images/wing.svg" width='70px' title="Wing Length"/> Wing Length
-<img src="./images/ovarno.svg" width='70px' title="Number of Ovariole"/> Number of Ovariole
-<img src="./images/L1A.svg" width='70px' title="Larvae to Adult development time"/> Larvae to Adult development time
-<img src="./images/LPA.svg" width='70px' title="Pupae to Adult development time"/> Pupae to Adult development time
-<img src="./images/L1LP.svg" width='70px' title="Larvae to Pupae development time"/> Larvae to Pupae development time
-
-
-<div class="row">
-  <div id="legendBlock" class="legblock1 col-sm-1"></div>
-  <div id="legendBlock" class="legblock2 col-sm-1"></div>
-  <div id="legendBlock" class="legblock3 col-sm-1"></div>
-  <div id="legendBlock" class="legblock4 col-sm-1"></div>
-  <div id="legendBlock" class="legblock5 col-sm-1"></div>
-  <div class="col-sm-7">
-    Each square is colored by the p-value of the statistical test performed between the corresponding column and row group. The p-value is displayed by hovering over the square. The darker the blue, the more significant the difference is.
-  </div>
-</div>
-
-</div>
