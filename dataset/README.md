@@ -8,15 +8,23 @@ It is composed of 3 dimensions, the generations diets of the parents *Generation
 The generations represent the different food the adult laying eggs ate:
 
 **P**: Poor; **R**: Rich; **S**: Standard
+
 XY: F0 was subjected to diet X and F1 diet Y (example: PR: F0 poor and F1 rich)
+
 XYZ: F0 was subjected to diet X, F1 diet Y and F2 diet Z (example: SRP: F0 standard, F1 rich and F2 poor)
 
 The different phenotypes are:
+
 **mass**: The mass of the fly in mg
+
 **eggsize**: The volume of the egg in mm<sup>3</sup>
+
 **winglength**: The length of the wing in mm<sup>3</sup>
+
 **devL1A**: The developmental time from 1st instar larva to adult in days
+
 **devL1LP**: The developmental time from 1st instar larva to pupae in days
+
 **devLPA**: The developmental time from pupae to adult in days
 
 ## StatisticalTests.tsv
@@ -26,15 +34,24 @@ It is composed of 4 dimensions, the two generation tested against *Generation1* 
 The generations represent the different food the adult laying eggs ate:
 
 **P**: Poor; **R**: Rich; **S**: Standard
+
 XY: F0 was subjected to diet X and F1 diet Y (example: PR: F0 poor and F1 rich)
+
 XYZ: F0 was subjected to diet X, F1 diet Y and F2 diet Z (example: SRP: F0 standard, F1 rich and F2 poor)
 
+
 The different phenotypes are:
+
 **mass**: The mass of the fly in mg
+
 **eggsize**: The volume of the egg in mm<sup>3</sup>
+
 **winglength**: The length of the wing in mm<sup>3</sup>
+
 **devL1A**: The developmental time from 1st instar larva to adult in days
+
 **devL1LP**: The developmental time from 1st instar larva to pupae in days
+
 **devLPA**: The developmental time from pupae to adult in days
 
 ## RawData.csv
