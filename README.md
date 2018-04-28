@@ -27,7 +27,7 @@ The raw data can be downloaded here: <a href="./dataset/dataset.zip">Dataset</a>
 **XY**: F0 was subjected to diet X and F1 diet Y (example: PR: F0 poor and F1 rich)<br />
 **XYZ**: F0 was subjected to diet X, F1 diet Y and F2 diet Z (example: SRP: F0 standard, F1 rich and F2 poor)
 
-![alt text](https://raw.githubusercontent.com/extavourlab/TransgenerationalEffectOfNutrition/master/images/egg.svg?token=ABCqO3_pD4tRZ7pOSHjyQCfs90cz2-XQks5a7fCDwA%3D%3D)
+![alt text](https://github.com/extavourlab/TransgenerationalEffectOfNutrition/blob/master/images/egg.svg)
 
     <img src="./images/egg.svg" width='70px' title="Egg Size"/> Egg Size
     <img src="./images/mass.svg" width='70px' title="Fly mass"/> Fly mass
