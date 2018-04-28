@@ -1,10 +1,10 @@
 # The transgenerational effect of nutrition on flies.
 
-Research design and data collection by **Joe Deas**<sup>1</sup>; Data-visualization by **Leo Blondel**<sup>1</sup>;
+Research design and data collection by **Joe Deas**<sup>1</sup>; Data-visualization by **Leo Blondel**<sup>2</sup>;
 Principal Investigator **Cassandra G Extavour**<sup>1</sup>
 
 *1: Department of Organism and Evolution, Harvard University.*
-
+*2: Department of Molecular and Cellular Biology, Harvard University.*
 ## Abstract
 
 *Abstract of the paper goes here.*

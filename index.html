@@ -15,6 +15,12 @@
         fill: #aaa;
       }
 
+      text.legmono {
+        font-size: 11pt;
+        font-family: Consolas, courier;
+        fill: #aaa;
+      }
+
       text.axis-workweek {
         fill: #000;
       }
@@ -30,6 +36,11 @@
 
 body {
   background-color: #FAF7F7 !important; /*Optional*/
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
 }
 
 .leftColumn
@@ -165,11 +176,12 @@ div.tooltip {
         <h1>The transgenerational effect of nutrition on flies.</h1>
       <p>
         Research design and data collection by <label>Joe Deas</label><sup>1</sup>;
-        Data-visualization by <label>Leo Blondel</label><sup>1</sup>;
-        Principal Investigator <label>Cassandra G Extavour</label><sup>1</sup>
+        Data-visualization by <label>Leo Blondel</label><sup>2</sup>;
+        Principal Investigator <label>Cassandra G Extavour</label><sup>1,2</sup>
       </p>
       <p>
-        1: Department of Organism and Evolution, Harvard University.
+        1: Department of Organism and Evolution, Harvard University. <br />
+        2: Department of Molecular and Cellular Biology, Harvard University.
       </p>
       <p>
         <i>Abstract of the paper goes here.</i>
@@ -374,6 +386,7 @@ div.tooltip {
   <br />
   <br />
   <br />
+  <hr />
   <footer>
     Thanks to the D3 Reusable charts project by Andrew Sielen (MIT licenced) for the swarm plots. <a href="http://bl.ocks.org/asielen/92929960988a8935d907e39e60ea8417">Source code</a> <br />
     Heatmap adapted from Tom May Day/Hours heatmap (MIT licence). <a href="http://bl.ocks.org/tjdecke/5558084">Source code</a>
@@ -1006,7 +1019,7 @@ div.tooltip {
               .attr("class", "legend");
 
           legend.append("text")
-          .attr("class", "mono")
+          .attr("class", "legmono")
           .text("P-Values")
           .attr("y", height - 16);
 
@@ -1018,7 +1031,7 @@ div.tooltip {
             .style("fill", function(d, i) { return colors[i]; });
 
           legend.append("text")
-            .attr("class", "mono")
+            .attr("class", "legmono")
             .text(function(d) { return "≥ " + d; })
             .attr("x", function(d, i) { return legendElementWidth * i; })
             .attr("y", height +  Math.floor(width / 12));
