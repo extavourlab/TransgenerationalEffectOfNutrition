@@ -76,12 +76,37 @@ body {
   padding: 10px;
 }
 
+#legendBlock {
+  width: 20px;
+  height: 20px;
+}
+
+div.legblock1 {
+  background-color: rgb(8, 29, 88);
+}
+
+div.legblock2 {
+  background-color: rgb(37, 52, 148);
+}
+
+div.legblock3 {
+  background-color: rgb(29, 145, 192);
+}
+
+div.legblock4 {
+  background-color: rgb(65, 182, 196);
+}
+
+div.legblock5 {
+  background-color: rgb(255, 255, 217);
+}
+
 div.tooltipheatmap {
     position: absolute;
     text-align: center;
-    width: 135px;
-    height: 60px;
-    padding: 2px;
+    /*width: 155px;*/
+    /*height: 60px;*/
+    padding: 6px;
     font: 12px sans-serif;
     background: lightsteelblue;
     border: 0px;
@@ -147,19 +172,14 @@ div.tooltip {
         1: Department of Organism and Evolution, Harvard University.
       </p>
       <p>
-        <i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-          consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-          incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-          exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-          vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui
-          dolorem eum fugiat quo voluptas nulla pariatur?</i>
+        <i>Abstract of the paper goes here.</i>
       </p>
       <p>
          This is an interactive datavizualisation that allows the user to explore interactively the dataset published in the paper <bold>ADD REF TO PAPER ONCE PUBLISHED</bold>.
-         To explore the dataset
+         Represented on the left matrix are the results of corrected pairwise statistical comparisons between two sets of generations, each having been subjected to a different diet.
+         To explore this dataset, you can observe on the matrix the significance of a change of diet in a given phenotype. On the right size, you will find different filters and selectors change the phenotype, or ask particular hypothesis.
+         For example, you can choose to observe the difference for a Rich F0 diet, followed by a Poor F1 diet, by selecting <bold>Generation Selector: F0 Rich F1 Poor F2 Any</bold>.
+         To observe the raw data behind a particular comnparison, click on the corresponding square in the matrix, and the raw data will be displayed under <i>Raw data vizualisation for a given comparison.</i>.
       </p>
       <p>
         The raw data can be downloaded here: <a href="./rawdata.tsv">Dataset</a>. It is formated as a TSV.
@@ -178,6 +198,18 @@ div.tooltip {
             <img src="./images/L1A.svg" width='70px' title="Larvae to Adult development time"/> Larvae to Adult development time
             <img src="./images/LPA.svg" width='70px' title="Pupae to Adult development time"/> Pupae to Adult development time
             <img src="./images/L1LP.svg" width='70px' title="Larvae to Pupae development time"/> Larvae to Pupae development time
+      </p>
+      <p>
+        <div class="row">
+          <div id="legendBlock" class="legblock1 col-sm-1"></div>
+          <div id="legendBlock" class="legblock2 col-sm-1"></div>
+          <div id="legendBlock" class="legblock3 col-sm-1"></div>
+          <div id="legendBlock" class="legblock4 col-sm-1"></div>
+          <div id="legendBlock" class="legblock5 col-sm-1"></div>
+          <div class="col-sm-7">
+            Each square is colored by the p-value of the statistical test performed between the corresponding column and row group. The p-value is displayed by hovering over the square. The darker the blue, the more significant the difference is.
+          </div>
+        </div>
       </p>
     </div>
     </center>
@@ -272,7 +304,7 @@ div.tooltip {
                       <option value="S">Standard</option>
                       <option value="P">Poor</option>
                       <option value="R">Rich</option>
-                      <option value="N">None</option>
+                      <!-- <option value="N">None</option> -->
                     </select>
                   </div>
                 </div>
@@ -300,7 +332,7 @@ div.tooltip {
                     <label>F2</label>
                   </div>
                   <div class="form-group">
-                    <label>//</label>
+                     and
                     <label>F0</label>
                     <select id="F0-F2-equal" name="F0F2-equal" class="form-control">
                       <option value="not">  </option>
@@ -871,7 +903,7 @@ div.tooltip {
           // horizontalLabels.remove()
 
           var gridSize = Math.floor(width / labels.length);
-          var leggridSize = Math.floor(width / 24);
+          var leggridSize = Math.floor(width / 11);
           var legendElementWidth = leggridSize*2;
 
 
@@ -962,20 +994,20 @@ div.tooltip {
           legend.append("text")
           .attr("class", "mono")
           .text("P-Values")
-          .attr("y", height - 8);
+          .attr("y", height - 16);
 
           legend.append("rect")
             .attr("x", function(d, i) { return legendElementWidth * i; })
             .attr("y", height)
             .attr("width", legendElementWidth)
-            .attr("height",  Math.floor(width / 24) / 2)
+            .attr("height",  Math.floor(width / 12) / 2)
             .style("fill", function(d, i) { return colors[i]; });
 
           legend.append("text")
             .attr("class", "mono")
             .text(function(d) { return "≥ " + d; })
             .attr("x", function(d, i) { return legendElementWidth * i; })
-            .attr("y", height +  Math.floor(width / 24));
+            .attr("y", height +  Math.floor(width / 12));
 
           legend.exit().remove();
 
