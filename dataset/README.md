@@ -1,5 +1,8 @@
 # Dataset description
 
+## dataset.zip
+Convenience archive containing all the files below.
+
 ## Dataset.tsv
 This dataset contains all of the data measured and collected for all the phenotypes.
 
