@@ -59,4 +59,4 @@ The different phenotypes are:
 ## StatisticalTests.zip
 
 Complete results of the statistical tests performed on the raw data. They are the results of a Dunn test for multiple comparisons
-done after a Kruskal-Wallis test (Bonferroni-adjusted p-value). The suffix indicates the phenotype. Note- devL1-A = development time, in days L1-Adult; devLP-A = development time in days, LP-adult; mass is in mg; egg size is estimated egg volume in mm<sup>3</sup>; ovarno is ovariole number; wing length is in mm^3.
+done after a Kruskal-Wallis test (Bonferroni-adjusted p-value). The suffix indicates the phenotype. Note- devL1-A = development time, in days L1-Adult; devLP-A = development time in days, LP-adult; mass is in mg; egg size is estimated egg volume in mm<sup>3</sup>; ovarno is ovariole number; wing length is in mm<sup>3</sup>.
