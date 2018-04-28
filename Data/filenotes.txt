@@ -1,7 +1,0 @@
-FILE NOTES
-
-- Any file with ‘dunntest’ prefix is the result of a Dunn test for multiple comparisons 
-done after a Kruskal-Wallis test (I used the Bonferroni-adjusted p-value). The suffix 
-indicates the phenotype. Note- devL1-A = development time, in days L1-Adult; devLP-A = 
-development time in days, LP-adult; mass is in mg; egg size is estimated egg volume in 
-mm^3; ovarno is ovariole number; wing length is in mm^3.

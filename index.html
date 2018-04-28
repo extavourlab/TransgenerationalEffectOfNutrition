@@ -176,7 +176,7 @@ div.tooltip {
       </p>
       <p>
          This is an interactive data-visualization that allows the user to explore interactively the dataset published in the paper <bold>ADD REF TO PAPER ONCE PUBLISHED</bold>.
-         Represented on the left matrix are the results of corrected pairwise statistical comparisons between two sets of generations, each having been subjected to a different diet.
+         Represented on the left matrix are the results of corrected pairwise statistical comparisons (Dunn’s test) between two sets of generations, each having been subjected to a different diet.
          To explore this dataset, you can observe on the matrix the significance of a change of diet in a given phenotype. On the right size, you will find different filters and selectors change the phenotype, or ask particular hypothesis.
          For example, you can choose to observe the difference for a Rich F0 diet, followed by a Poor F1 diet, by selecting <bold>Generation Selector: F0 Rich F1 Poor F2 Any</bold>.
          To observe the raw data behind a particular comnparison, click on the corresponding square in the matrix, and the raw data will be displayed under <i>Raw data visualization for a given comparison.</i>.
@@ -365,6 +365,14 @@ div.tooltip {
       </div>
     </div>
   </div>
+  <br />
+  <br />
+  <br />
+  <footer>
+    Thanks to the D3 Reusable charts project by Andrew Sielen (MIT licenced) for the swarm plots. <a href="http://bl.ocks.org/asielen/92929960988a8935d907e39e60ea8417">Source code</a> <br />
+    Heatmap adapted from Tom May Day/Hours heatmap (MIT licence). <a href="http://bl.ocks.org/tjdecke/5558084">Source code</a>
+  </footer>
+
 
     <script src="distrochart.js" charset="utf-8"></script>
 
