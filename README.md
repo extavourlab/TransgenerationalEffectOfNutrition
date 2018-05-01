@@ -29,4 +29,4 @@ Heatmap adapted from Tom May Day/Hours heatmap (MIT licence. http://bl.ocks.org/
 
 ## Funding
 
-This work was funded and supported by the National Institute of Health (NIH).
+This work was supported by NIH grant R01HD073499 to CGE. JD was partially supported by NIH Supplement 3R01HD073499-03S1.
